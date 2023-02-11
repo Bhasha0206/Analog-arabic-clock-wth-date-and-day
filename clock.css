@@ -1,0 +1,49 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    /* border: 2px solid blue; */
+    height: 40vw;
+    width: 40vw;
+    background: url(Arabicclock.png) no-repeat;
+    background-size: 100%;
+}
+#hour, #min, #sec{
+    position: absolute;
+    background: black;
+    /* border-radius: 10%; */
+    transform-origin: bottom;
+}
+#hour{
+    height: 23%;
+    width: 2%;
+    top: 29%;
+    left: 49%;
+    /* opacity: 0.8; */
+    /* display: none; */
+}
+#min{
+    height: 25%;
+    width: 2%;
+    top: 26%;
+    left: 49%;
+    /* display: none; */
+}
+#sec{
+    height: 34%;
+    width: 1%;
+    top: 16%;
+    left: 49.5%;
+    /* display: none; */
+}
+.container {
+    font-size: 23px;
+    background-color: blanchedalmond;
+    border: 2px solid grey;
+    padding: 34px;
+    margin: 4px;
+    text-align: center;
+}
+
+#time {
+    font-weight: bold;
+}
